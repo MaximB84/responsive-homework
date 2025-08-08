@@ -34,11 +34,11 @@ p {
 }
 
 .container div {
-  width: 90%;
   background-color: #fff;
   padding: 10px;
   text-align: center;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .container img {
@@ -48,10 +48,10 @@ p {
   object-fit: contain;
 }
 
-/* Tablet view: ab 772px */
+/* Tablet view: ab 772px – 2 Spalten */
 @media screen and (min-width: 772px) {
   .container div {
-    width: 45vw;
+    width: 45%;
   }
 
   .container img {
@@ -59,9 +59,9 @@ p {
   }
 }
 
-/* Desktop view: ab 998px */
+/* Desktop view: ab 998px – 3 Spalten */
 @media screen and (min-width: 998px) {
   .container div {
-    width: 30vw;
+    width: 30%;
   }
 }
